@@ -1,4 +1,4 @@
-import {db} from  '../config/ConnectDB.js'
+import db from  '../config/ConnectDB.js'
 import express from 'express'
 
 let home = (req,res) =>{
@@ -17,7 +17,7 @@ let createtb = async (req,res) =>{
 }
 let getUser = async (req,res) =>{
     try{
-        let users = await db.promise().query('SELECT * FROM users')
+        let users = await db.query('SELECT * FROM users')
         return res.status(200).json(users[0])
     }
     catch(err){
