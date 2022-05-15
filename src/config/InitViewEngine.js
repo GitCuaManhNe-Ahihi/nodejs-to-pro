@@ -7,4 +7,5 @@ const InitViewengine = (app) => {
     app.set('views', './src/views');
 }
 
+
 export default InitViewengine;

@@ -1,0 +1,5 @@
+2022-05-16 02:50:22 - 404 - NOTFOUND - GET::ffff:127.0.0.1 - - [15/May/2022:19:50:22 +0000] "GET /api/v1/users/1 HTTP/1.1" 404 15711 "-" "vscode-restclient"
+2022-05-16 02:50:59 - 404 - NOTFOUND - GET::ffff:127.0.0.1 - - [15/May/2022:19:50:59 +0000] "GET /api/v1/users/1 HTTP/1.1" 404 15711 "-" "vscode-restclient"
+2022-05-16 02:51:24 - 404 - NOTFOUND - GET::ffff:127.0.0.1 - - [15/May/2022:19:51:24 +0000] "GET /api/v1/users/1 HTTP/1.1" 404 15711 "-" "vscode-restclient"
+2022-05-16 02:51:58 - 404 - NOTFOUND - GET::ffff:127.0.0.1 - - [15/May/2022:19:51:58 +0000] "GET /api/v1/users/1 HTTP/1.1" 404 15711 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [15/May/2022:19:52:21 +0000] "GET /api/v1/users/1 HTTP/1.1" 404 15711 "-" "vscode-restclient"
